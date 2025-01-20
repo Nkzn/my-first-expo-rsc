@@ -8,6 +8,12 @@
       "reactServerFunctions": true
     },
     "name": "my-first-expo-rsc",
-    "slug": "my-first-expo-rsc"
+    "slug": "my-first-expo-rsc",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b6feead6-55c8-4e01-ae9e-837091f39b5c"
+      }
+    }
   }
 }
