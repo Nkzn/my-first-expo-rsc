@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "reactServerFunctions": true
+    },
+    "name": "my-first-expo-rsc",
+    "slug": "my-first-expo-rsc"
+  }
+}
