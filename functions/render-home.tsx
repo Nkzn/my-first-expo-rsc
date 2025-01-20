@@ -17,6 +17,8 @@ export async function renderHomeAsync() {
 
   const json = await res.json();
 
+  const now = new Date();
+
   return (
     <>
       <Stack.Screen options={{ title: json.name }} />
@@ -31,6 +33,7 @@ export async function renderHomeAsync() {
           <Text key={ability.ability.name}>- {ability.ability.name}</Text>
         ))}
       </View>
+      <Text style={{ marginVertical: 16 }}>now: {now.toISOString()}</Text>
     </>
   );
 }
